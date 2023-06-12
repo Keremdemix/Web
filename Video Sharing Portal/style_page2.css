@@ -1,0 +1,64 @@
+.video-item { 
+    background-color: #fff;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.video-thumbnail {
+    width: 120px;
+    height: 90px;
+    flex-shrink: 0;
+    margin-right: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.video-options {
+    margin: 15px;
+    text-align: right;
+}
+
+.delete-button {
+    width: 60px;
+    border-radius:100%; 
+    display: flex;
+
+    align-items: center;
+    margin:10px;
+}
+
+button{
+    padding: 15px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:auto;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+h2 {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+#son{
+    display: flex;
+    margin-top: 20px;
+  }
+
+h3{
+    width:95%;
+}
